@@ -5,6 +5,7 @@ django crud using mysql
    pip install django
 
 2) Change the project settings.py database settings as like below:
+   ```
    DATABASES = {
 	'default': {
 		'ENGINE': 'django.db.backends.mysql',
@@ -15,4 +16,4 @@ django crud using mysql
 		'PORT':'3306',
 	}
 }
-
+```
