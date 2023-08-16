@@ -2,9 +2,11 @@
 django crud using mysql
 
 1) Install library to use mysql
+   ```
    pip install django
+   ```
 
-2) Change the project settings.py database settings as like below:
+3) Change the project settings.py database settings as like below:
    ```
    DATABASES = {
 	'default': {
@@ -14,6 +16,6 @@ django crud using mysql
 		'PASSWORD': 'admin',
 		'HOST':'localhost',
 		'PORT':'3306',
+		}
 	}
-}
 ```
